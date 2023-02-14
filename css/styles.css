@@ -22,6 +22,19 @@ nav {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  border-top: #fff solid 4px;
+  border-bottom: #fff solid 4px;
+  padding: 5px 0;
+}
+
+nav a {
+  text-align: center;
+  padding: 2px;
+}
+
+nav .amelie {
+  border-left: #fff solid 4px;
+  border-right: #fff solid 4px;
 }
 
 .compositeur,
