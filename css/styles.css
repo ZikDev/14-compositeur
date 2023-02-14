@@ -35,6 +35,11 @@ h3 {
   font-style: normal;
 }
 
+nav,
+div, 
+footer,
+figcaption {
+  font-family: superclarendon, serif;
 }
 
 nav {
