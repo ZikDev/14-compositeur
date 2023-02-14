@@ -51,6 +51,9 @@ nav {
   border-top: #fff solid 4px;
   border-bottom: #fff solid 4px;
   padding: 5px 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 nav a {
