@@ -59,6 +59,8 @@ nav {
 nav a {
   text-align: center;
   padding: 2px;
+  color: #000;
+  font-style: normal;
 }
 
 nav .amelie {
