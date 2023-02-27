@@ -88,6 +88,9 @@ nav .amelie {
   margin: 0 70px 0 20px;
   padding: 5px 10px;
   border-radius: 0px 0px 5px 5px;
+  font-size: 10px;
+  font-weight: 300;
+  text-transform: lowercase;
 }
 
 .citation {
