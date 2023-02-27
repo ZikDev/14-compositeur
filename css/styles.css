@@ -118,6 +118,9 @@ nav .amelie {
   text-align: end;
   margin: 10px 10px 5px 0;
 }
+.spotify {
+  max-width: 50px;
+}
 
 audio::-webkit-media-controls-panel {
   background-color: #EECFCB;
