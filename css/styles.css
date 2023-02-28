@@ -1,31 +1,17 @@
-html {
-  background-color: #EECFCB;
+h2,
+h3,
+div .compositeur,
+div .citation,
+div .film,
+div .legende {
+  margin: 0 20px;
 }
 
-body {
-  max-width: 320px;
-  margin: auto;
-  background: #D0686E;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin: 30px 0 0 0;
-}
-
-h1 {
-  margin: 30px;
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 20px;
-  border-bottom: #fff solid 4px;
-}
-
-h3 {
-  font-size: 16px;
+nav,
+div, 
+footer,
+figcaption {
+  font-family: "superclarendon", serif;
 }
 
 h1,
@@ -38,11 +24,45 @@ h3 {
   text-align: center;
 }
 
-nav,
-div, 
-footer,
-figcaption {
-  font-family: superclarendon, serif;
+.compositeur,
+.film {
+  background-color: #EECFCB;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.compositeur p,
+.film p {
+  border-left: #fff solid 4px;
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+html {
+  background-color: #EECFCB;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background: #D0686E;
+}
+
+h1 {
+  padding: 30px;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: #fff solid 4px;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 nav {
@@ -64,28 +84,19 @@ nav a {
   padding: 2px;
   color: #000;
   font-style: normal;
-}
-
+  text-decoration: none;
+  font-weight: 700;
+} 
 nav .amelie {
   border-left: #fff solid 4px;
   border-right: #fff solid 4px;
+  padding: 0 5px;
 }
 
-.compositeur,
-.film {
-  background-color: #EECFCB;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-.compositeur p,
-.film p {
-  border-left: #fff solid 4px;
-  padding: 5px;
-  margin: 0;
-  font-size: 14px;
-  font-weight: 400;
+img {
+  display: block;
+  max-width: 100%;
+  margin: 30px 0 0 0;
 }
 
 .legende {
@@ -123,12 +134,13 @@ nav .amelie {
   margin: 60px 20px 0;
 }
 
-.album {
-  margin: 30px 20px 20px;
+figcaption {
+  font-size: 12px;
+  margin: 30px 25px 5px ;
 }
 
-.spotify {
-  max-width: 50px;
+figure {
+  margin: 10px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -138,6 +150,15 @@ audio::-webkit-media-controls-panel {
 audio::-webkit-media-controls-play-button:hover {
   background-color: #D0686E;
   border-radius: 50%;
+}
+
+.album {
+  margin: 30px 20px 20px;
+}
+
+.spotify {
+  max-width: 50px;
+  margin: 20px 135px;
 }
 
 footer {
@@ -161,15 +182,4 @@ footer img {
 footer p  {
   text-align: center;
   font-size: 10px;
-
-}
-
-h2,
-h3,
-div .compositeur,
-div .citation,
-div .film,
-div .legende,
-figure {
-  margin: 0 20px;
 }
