@@ -137,7 +137,14 @@ footer {
 }
 
 footer img {
-  max-width: 54px;
+  max-width: 100px;
+  margin: 0;
+}
+
+footer p  {
+  text-align: center;
+  font-size: 10px;
+
 }
 
 h2,
